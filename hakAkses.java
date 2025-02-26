@@ -68,7 +68,7 @@ public class hakAkses {
                             dataAdmin[i][1] = dataAdmin[(i+1)][1];
                         }
                         System.out.println("Admin berhasil dihapus");
-                        dataMaster--;
+                        
                     } if (pilihMenu==3) {
                         System.out.println("List Admin");
                         for (int i = 0; i < dataMaster; i++) {
@@ -132,7 +132,7 @@ public class hakAkses {
                             if (dataBuku[i][0]!= null) {
                                 System.out.println((i+1)+". "+dataBuku[i][0]);
                             }
-                            
+                             
                         }
                     } 
                 } while (true);

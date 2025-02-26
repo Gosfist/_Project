@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 // menggunakan array dengan fungsi add dan remove judul buku
 
-public class tokoBuku1 {
+public class tokoBuku {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
